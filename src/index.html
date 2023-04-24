@@ -8,23 +8,26 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body >
   <app-root></app-root>
 
-   <h1>inserisci i tuoi dati</h1>
+  <form action="#">
+    <label for="lang">Circuiti</label>
+    <select name="languages" id="lang">
+      <option value="visa">visa</option>
+      <option value="matercard">mastercard</option>
+      <option value="pago bancomat">pago bancomat</option>
 
-<form action="" method="post">
+      <option value="paypal">paypal</option>
 
-  nome: <input type="text">
-  <br>
-  <br>
-
-  cognome: <input type="text">
-
-  <br>
-
-
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit" >
+   <br>
+    <input type="reset" value="delete">
 </form>
+
 
 
 

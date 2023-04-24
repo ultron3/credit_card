@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-
-.h1{
-  size: initial
-
-
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: yellowgreen;
 }
 
-body{
-  background-color: aquamarine;
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
